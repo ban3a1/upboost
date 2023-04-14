@@ -124,6 +124,9 @@ input[type="number"] {
     opacity: 1;
   }
 }
+.page-title {
+  font-size: 25px;
+}
 
 @media screen and (min-width: 2000px) {
   .main-text p,
@@ -153,6 +156,70 @@ input[type="number"] {
   .payment-desc {
     font-size: 20px;
     margin-top: 20px;
+  }
+  .page-title {
+    font-size: 30px;
+  }
+  .accordion-header h2 {
+    font-size: 22px;
+  }
+  .accordion-content {
+    font-size: 18px;
+  }
+  .service-text {
+    font-size: 20px;
+  }
+  .service-title {
+    font-size: 25px;
+  }
+  .choice-menu-option,
+  .dropdown-text,
+  .dropdown-label,
+  .link-input,
+  .checkout-input,
+  .point-title {
+    font-size: 20px;
+  }
+  .number-text {
+    font-size: 20px;
+  }
+  .choice-img-menu-option {
+    width: 175px;
+    gap: 15px;
+  }
+  .choice-menu-option {
+    padding: 20px;
+  }
+  .choice-img-menu-text {
+    font-size: 20px;
+  }
+  .choice-img-menu-img {
+    width: 30px;
+    height: 30px;
+  }
+  .point-desc {
+    font-size: 16px;
+  }
+  .form-title {
+    font-size: 25px;
+  }
+  .form-input {
+    font-size: 18px;
+  }
+  input {
+    padding: 10px 6px 6px 17px;
+  }
+  .rules {
+    font-size: 15px;
+  }
+  .btn-form {
+    font-size: 14px;
+  }
+  .form-input-container {
+    gap: 15px;
+  }
+  .rules {
+    margin: 10px 0;
   }
 }
 
@@ -379,10 +446,6 @@ input[type="number"] {
     width: 30px;
     height: 30px;
   }
-}
-
-.page-title {
-  font-size: 25px;
 }
 
 @import url("./styles/front.scss");

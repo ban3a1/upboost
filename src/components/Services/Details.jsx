@@ -6,7 +6,7 @@ import InputWithButtons from "./components/ClickInput";
 import Checkout from "./Checkout";
 
 export default function Details() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const serviceOptions = [
     "Подписчики",

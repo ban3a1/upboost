@@ -14,7 +14,6 @@ import twitch from "../../img/socials/twitch.svg";
 export default function Services() {
   return (
     <div>
-      <ContactsBg />
       <div className="services-page-container">
         <Menu right={true} />
         <div className="services-content-container">
