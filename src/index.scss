@@ -125,6 +125,37 @@ input[type="number"] {
   }
 }
 
+@media screen and (min-width: 2000px) {
+  .main-text p,
+  .nav-link,
+  .btn {
+    font-size: 25px;
+  }
+  .main-text h2 {
+    font-size: 50px;
+  }
+  .sub-title {
+    font-size: 30px;
+  }
+  .advantage-desc {
+    font-size: 18px;
+  }
+  .advantage-title {
+    font-size: 20px;
+  }
+  .advantage-img {
+    width: 50px;
+    height: 50px;
+  }
+  .advantage-container {
+    gap: 10px;
+  }
+  .payment-desc {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+
 @media screen and (min-width: 1029px) {
   .main-text {
     max-width: 40%;

@@ -5,7 +5,7 @@ import SignUp from './components/Form/SignUp';
 import Recover from './components/Form/Recover'
 import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
-import Services from './components/Services/Services';
+import Services from './components/Services/Services';  
 
 
 function App() {
