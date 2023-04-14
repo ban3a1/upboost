@@ -4,8 +4,8 @@
   padding: 0;
   margin: 0;
 }
-html {
-  overflow: hidden;
+::-webkit-scrollbar {
+  display: none;
 }
 body {
   margin: 0;
@@ -95,10 +95,6 @@ input[type="number"] {
   .mac-p {
     margin-top: 15px;
   }
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 .sub-title {
