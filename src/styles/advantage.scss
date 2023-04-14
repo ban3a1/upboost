@@ -1,0 +1,26 @@
+.advantage-container {
+  border-radius: 30px;
+  border: 3px solid rgba($color: #fff, $alpha: 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+}
+.advantage-title {
+  font-size: 16px;
+}
+
+.advantage-img {
+  padding: 5px;
+  border: 3px solid rgba($color: #fff, $alpha: 0.1);
+  border-radius: 15px;
+  width: 25px;
+  height: 25px;
+}
+
+.advantage-desc {
+  font-weight: 400;
+  color: rgba($color: #fff, $alpha: 0.5);
+  font-size: 14px;
+}

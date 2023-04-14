@@ -1,0 +1,17 @@
+.choice-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.choice-menu-option {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  font-size: 15px;
+  border: 2px solid rgba($color: #1875ff, $alpha: 0);
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.option-selected {
+  border: 2px solid #1875ff;
+}

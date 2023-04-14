@@ -1,0 +1,15 @@
+.contacts-page-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.contacts-content-container {
+  padding: 100px;
+}
+
+.contact-squares {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+}

@@ -1,0 +1,28 @@
+.details-container {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  padding: 50px;
+  margin: 30px 100px 0 100px;
+}
+
+.details-title {
+  margin-bottom: 25px;
+}
+
+.options-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 60%;
+}
+
+.order-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.number-text {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}

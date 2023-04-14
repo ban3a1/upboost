@@ -1,0 +1,49 @@
+.info-symbol-container {
+  display: flex;
+}
+
+.info-symbol {
+  object-fit: contain;
+  width: 20px;
+  opacity: 0.3;
+  transition: 0.3s all;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.info-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+  z-index: 10000;
+  top: 0;
+  left: 0;
+}
+.info-box {
+  position: absolute;
+  background: rgb(15 19 26);
+  border: 2px solid rgba($color: #fff, $alpha: 0.1);
+  border-radius: 15px;
+  padding: 0 20px;
+}
+.info-box-point {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 250px;
+  border-bottom: 1px solid rgba($color: #fff, $alpha: 0.1);
+  padding: 20px 0;
+}
+.info-box-point:last-child {
+  border-bottom: none;
+}
+.point-title {
+  font-size: 16px;
+}
+.point-desc {
+  font-size: 14px;
+  color: rgba($color: #fff, $alpha: 0.5);
+}

@@ -1,0 +1,39 @@
+.accordion {
+  background: rgba(255, 255, 255, 0.05);
+
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.chevron {
+  transition: 0.5s all;
+  width: 25px;
+  height: 25px;
+  &.open {
+    transform: rotateZ(180deg);
+  }
+  &--dropdown {
+    display: flex;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.accordion-header {
+  font-size: 12px;
+  display: flex;
+
+  justify-content: space-between;
+  gap: 10px;
+  h2 {
+    font-weight: 500;
+  }
+}
+
+.accordion-content {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 10px;
+  width: 95%;
+}

@@ -1,0 +1,22 @@
+.input-with-buttons {
+  width: 80px;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  background: rgb(23 28 34);
+  gap: 5px;
+  border-radius: 10px;
+}
+.click-input {
+  width: 80%;
+  background: rgb(23 28 34);
+  color: rgba($color: #fff, $alpha: 0.5);
+  font-weight: 400;
+}
+.click-button {
+  opacity: 0.5;
+  transition: 0.3s all;
+  &:hover {
+    opacity: 1;
+  }
+}
