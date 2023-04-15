@@ -9,8 +9,13 @@ function Dropdown({ options }) {
     setIsOpen(!isOpen);
   };
 
-  const handleOptionClick = (option, selectedQuality) => {
+  useEffect(() => {
+    console.log(selectedQuality);
+  }, [options]);
+
+  const handleOptionClick = (option) => {
     setSelectedQuality(option);
+    console.log(selectedQuality);
     setIsOpen(false);
   };
 
@@ -33,15 +38,17 @@ function Dropdown({ options }) {
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
-          {options.map((option) => (
+          {options.map((option, index) => (
             <>
               <li
-                key={option.value}
-                onClick={() => handleOptionClick(option, selectedQuality)}
-                className={option === selectedQuality ? "dropdown-active" : ""}
+                key={index}
+                onClick={() => handleOptionClick(option, index)}
+                className={
+                  selectedQuality.index === index ? "dropdown-active" : ""
+                }
               >
-                <p className="dropdown-label"> {option.value}</p>{" "}
-                <p className="dropdown-price"> {option.price}</p>
+                <p className="dropdown-label">{option.value}</p>
+                <p className="dropdown-price">{option.price}</p>
               </li>
             </>
           ))}

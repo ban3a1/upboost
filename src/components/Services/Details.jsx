@@ -6,8 +6,6 @@ import InputWithButtons from "./components/ClickInput";
 import Checkout from "./Checkout";
 
 export default function Details() {
-  const [isOpen, setIsOpen] = useState(false);
-
   const serviceOptions = [
     "Подписчики",
     "Просмотры",
@@ -15,20 +13,26 @@ export default function Details() {
     "Дизлайки",
     "Коментарии",
   ];
+
   const qualOpt = [
     {
       value: "Высокое",
       price: "[0.5₽ за 1 шт.]",
+      index: 0,
     },
     {
       value: "Низкое",
       price: "[0.1₽ за 1 шт.]",
+      index: 1,
     },
     {
       value: "Среднее",
       price: "[0.25₽ за 1 шт.]",
+      index: 2,
     },
   ];
+
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="details-container">

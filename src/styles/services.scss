@@ -1,10 +1,12 @@
 .services-page-container {
   margin-left: 200px;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .services-content-container {
   display: flex;
-  height: 87vh;
+  height: 100vh;
 }
 .services-container {
   max-width: 200px;
