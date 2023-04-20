@@ -22,11 +22,12 @@ export default function SignIn() {
             Правила сервиса
           </a>
         </div>
-
-        <a className=" btn-form action">Зарегистрироваться</a>
-        <a href="/signin" className=" btn-form">
-          Войти
-        </a>
+        <div className="form-btn-container">
+          <a className=" btn-form action">Зарегистрироваться</a>
+          <a href="/signin" className=" btn-form">
+            Войти
+          </a>
+        </div>
       </div>
     </div>
   );

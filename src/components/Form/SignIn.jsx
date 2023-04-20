@@ -17,10 +17,12 @@ export default function SignIn() {
         <a href="/recover" className="forgot-link">
           Забыли пароль?
         </a>
-        <a className=" btn-form action">Войти</a>
-        <a href="/signup" className=" btn-form">
-          Зарегистрироваться
-        </a>
+        <div className="form-btn-container">
+          <a className=" btn-form action">Войти</a>
+          <a href="/signup" className=" btn-form">
+            Зарегистрироваться
+          </a>
+        </div>
       </div>
     </div>
   );

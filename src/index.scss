@@ -112,18 +112,7 @@ input[type="number"] {
   display: flex;
   justify-content: end;
 }
-.cross {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  right: 50px;
-  top: 50px;
-  opacity: 0.5;
-  transition: 0.3s all;
-  &:hover {
-    opacity: 1;
-  }
-}
+
 .page-title {
   font-size: 25px;
 }
@@ -328,6 +317,10 @@ input[type="number"] {
   .main-text .mac-p {
     margin-top: 5px;
   }
+
+  .front-content {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -337,6 +330,13 @@ input[type="number"] {
       margin-top: 20px;
       width: 100%;
     }
+  }
+  .main-text {
+    width: 100%;
+  }
+
+  .front-img-container {
+    width: 100%;
   }
   .main-text {
     max-width: 100%;
