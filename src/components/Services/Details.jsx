@@ -4,6 +4,14 @@ import InfoSymbol from "./components/InfoSymbol";
 import DropdownInput from "./components/DropdownInput";
 import InputWithButtons from "./components/ClickInput";
 import Checkout from "./Checkout";
+import tg from "../../img/socials/tg.svg";
+import youtube from "../../img/socials/youtube.svg";
+import vk from "../../img/socials/vk.svg";
+import inst from "../../img/socials/inst.svg";
+import tiktok from "../../img/socials/tiktok.svg";
+import twitter from "../../img/socials/twitter.svg";
+import twitch from "../../img/socials/twitch.svg";
+import Service from "./Service";
 
 export default function Details() {
   const serviceOptions = [
@@ -36,6 +44,19 @@ export default function Details() {
 
   return (
     <div className="details-container">
+      <div className="details-mobile-container">
+        <h2 className="page-title ">Что будем продвигать?</h2>
+        <div className="details-mobile-container-services">
+          <Service img={tg} title={"Telegram"} />
+          <Service img={youtube} title={"Youtube"} />
+          <Service img={vk} title={"VK"} />
+          <Service img={inst} title={"Instagram"} />
+          <Service img={tiktok} title={"TikTok"} />
+          <Service img={twitter} title={"Twitter"} />
+          <Service img={twitch} title={"Twitch"} />
+        </div>
+      </div>
+
       <h2 className="page-title details-title">Youtube</h2>
       <div className="options-container">
         <div className="service-type">

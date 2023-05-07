@@ -39,7 +39,7 @@
     background: rgb(16 21 30);
     transform: translateX(100%);
     transition: all 0.3s ease-in-out;
-    z-index: 20;
+    z-index: 999999;
   }
 
   nav.open {
@@ -88,6 +88,11 @@
       background: rgba(255, 255, 255);
     }
   }
+}
+.cross--services {
+  top: 10%;
+  right: 5%;
+  z-index: 20;
 }
 .cross-line1,
 .cross-line2 {

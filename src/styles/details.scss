@@ -13,16 +13,25 @@
 .options-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 60%;
+  grid-gap: 50px;
 }
 
 .order-container {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-top: 50px;
 }
 
 .number-text {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.5);
+}
+.details-mobile-container {
+  margin-bottom: 20px;
+  display: none;
+}
+.details-mobile-container-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }

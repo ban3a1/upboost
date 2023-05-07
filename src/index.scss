@@ -45,7 +45,7 @@ code {
   cursor: pointer;
   background-color: transparent;
   border: 3px solid rgba(255, 255, 255, 0.5);
-  border-radius: 15px;
+  border-radius: 10px;
   transition: all 0.3s;
 
   &:hover {
@@ -108,7 +108,6 @@ input[type="number"] {
   overflow: hidden;
 }
 .bottom-buttons {
-  margin: 80px;
   display: flex;
   justify-content: end;
 }
@@ -117,7 +116,7 @@ input[type="number"] {
   font-size: 25px;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1800px) {
   .main-text p,
   .nav-link,
   .btn {
@@ -173,7 +172,6 @@ input[type="number"] {
     font-size: 20px;
   }
   .choice-img-menu-option {
-    width: 175px;
     gap: 15px;
   }
   .choice-menu-option {
@@ -209,6 +207,24 @@ input[type="number"] {
   }
   .rules {
     margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .details-mobile-container {
+    display: block;
+  }
+  .services-container {
+    display: none;
+  }
+  .services-page-container {
+    margin: 0;
+  }
+  .details-title {
+    display: none;
+  }
+  .services-page-container {
+    overflow: auto;
   }
 }
 
@@ -259,14 +275,48 @@ input[type="number"] {
   }
 
   .method-container {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+  }
+  .payment-container {
+    flex-direction: column;
+  }
+  .payment-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .payment-methods-container {
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: start;
+  }
+  .advantages-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bottom-buttons {
+    font-size: 18px;
+  }
+  .about-container {
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .options-container {
+    grid-template-columns: 1fr;
+  }
+  .services-content-container {
+    height: auto;
+  }
+  .details-container {
+    margin: 30px 50px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .btn {
-    font-size: 12px;
+    font-size: 14px;
   }
   .rules {
     font-size: 10px;
@@ -310,16 +360,25 @@ input[type="number"] {
     max-width: 50%;
   }
 
-  .method-container {
-    width: 40px;
-    height: 40px;
-  }
   .main-text .mac-p {
     margin-top: 5px;
   }
 
   .front-content {
     margin-top: 50px;
+  }
+  .payment-methods-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .contacts-content-container {
+    padding: 50px;
+  }
+  .details-mobile-container-services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .checkout-container {
+    padding: 25px;
+    margin: 0 20px;
   }
 }
 
@@ -357,6 +416,12 @@ input[type="number"] {
       }
     }
   }
+  .menu--right {
+    margin-right: 0;
+  }
+  .checkout-input {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -364,8 +429,9 @@ input[type="number"] {
     grid-template-columns: repeat(2, 1fr);
   }
   .method-container {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
   }
   .front-content {
     margin-top: 10vw;
@@ -396,7 +462,6 @@ input[type="number"] {
   }
 
   .btn {
-    padding: 10x 15px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.5);
   }
@@ -428,9 +493,7 @@ input[type="number"] {
   .payment-methods-container {
     margin-top: 20px;
   }
-  .bottom-buttons {
-    margin: 20px;
-  }
+
   .navigation-pages {
     display: none;
   }
@@ -445,6 +508,17 @@ input[type="number"] {
   .method-container {
     width: 30px;
     height: 30px;
+  }
+  .details-container {
+    margin: 0 20px 0;
+    width: 80%;
+    padding: 20px;
+  }
+  .checkout-container {
+    top: 5%;
+    left: 0;
+    transform: none;
+    width: auto;
   }
 }
 

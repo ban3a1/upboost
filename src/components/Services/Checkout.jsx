@@ -88,7 +88,7 @@ export default function About({ isOpen, setIsOpen }) {
         <img
           src={cross}
           alt=""
-          className="cross"
+          className="cross cross--services"
           onClick={() => {
             setIsOpen(!isOpen);
           }}

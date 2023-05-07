@@ -2,6 +2,7 @@
   position: relative;
   display: inline-block;
   width: 100%;
+  z-index: 10;
 }
 
 .dropdown-toggle {
@@ -28,7 +29,7 @@
 }
 .dropdown-toggle {
   width: 100%;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgb(23 28 34);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -45,7 +46,7 @@
   transition: 0.3s all;
   position: relative;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgb(23 28 34);
   font-size: 16px;
   cursor: pointer;
 }
@@ -63,7 +64,7 @@
 }
 
 .dropdown-menu li:hover {
-  opacity: 0.7;
+  background: #13181e;
 }
 
 .dropdown-menu li {
