@@ -224,7 +224,7 @@ input[type="number"] {
     display: none;
   }
   .services-page-container {
-    overflow: auto;
+    overflow: visible;
   }
 }
 
@@ -307,7 +307,7 @@ input[type="number"] {
     grid-template-columns: 1fr;
   }
   .services-content-container {
-    height: auto;
+    height: fit-content;
   }
   .details-container {
     margin: 30px 50px 0;
