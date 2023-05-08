@@ -238,6 +238,9 @@ input[type="number"] {
   .logo {
     width: 15vw;
   }
+  .service-scroll-container {
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 1024px) {

@@ -5,15 +5,14 @@ export default function LogsTable({ data, slots }) {
   if (data.length !== slots) {
     for (let i = 0; i < slots - data.length; i++) {
       data.push({
-        Num: newNum,
-        Name: "Fifth Data",
-        Date: "2023-05-05",
-        Type: "Meeting",
-        Details: "Reviewing project progress",
+        Num: "*",
+        Name: "Empty Data",
+        Date: "**.**.****",
+        Type: "Empty",
+        Details: "",
       });
       newNum++;
     }
-    console.log(data);
   }
 
   return (
@@ -28,12 +27,25 @@ export default function LogsTable({ data, slots }) {
         </tr>
       </thead>
       <tbody>
-        {data.map((el) => {
+        {data.map((el, index) => {
+          if (el.Type === "Empty") {
+            return (
+              <tr key={index} className="logs-empty">
+                <td>{el.Num}</td>
+                <td>{el.Name}</td>
+                <td>{el.Date}</td>
+                <td>{el.Type}</td>
+                <td>{el.Details}</td>
+              </tr>
+            );
+          }
           return (
-            <tr key={el.Num}>
-              <td>2023-05-02</td>
-              <td>Logout</td>
-              <td>Success</td>
+            <tr key={index}>
+              <td>{el.Num}</td>
+              <td>{el.Name}</td>
+              <td>{el.Date}</td>
+              <td>{el.Type}</td>
+              <td>{el.Details}</td>
             </tr>
           );
         })}

@@ -13,10 +13,10 @@ import twitch from "../../img/socials/twitch.svg";
 
 export default function Services() {
   return (
-    <div>
-      <div className="services-page-container">
-        <ContactsBg />
+    <div className="service-scroll-container">
+      <ContactsBg />
 
+      <div className="services-page-container">
         <div className="services-menu-container">
           <Menu right={true} />
         </div>

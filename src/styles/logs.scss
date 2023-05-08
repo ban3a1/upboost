@@ -1,18 +1,21 @@
 .logs-container {
   position: relative;
   height: 100vh;
-  overflow: hidden;
+  width: 100%;
+  overflow: scroll;
 }
 .logs-content-container {
   position: absolute;
 
-  bottom: -5px;
+  bottom: 0;
   left: 100px;
   border-radius: 15px 15px 0 0;
   border: 2px solid rgba(255, 255, 255, 0.1);
   height: 70%;
   padding: 30px;
-  width: 80%;
+  width: 1000px;
+  overflow: hidden;
+  border-bottom: none;
 }
 
 table {
@@ -37,4 +40,8 @@ td {
 td:last-child,
 th:last-child {
   border-right: none;
+}
+
+.logs-empty {
+  opacity: 0.25;
 }
