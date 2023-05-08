@@ -1,7 +1,6 @@
 .services-page-container {
   margin-left: 200px;
   height: 100vh;
-  overflow: hidden;
 }
 
 .services-content-container {
@@ -13,6 +12,9 @@
 }
 .services-title {
   margin-bottom: 50px;
+}
+.services-menu-container {
+  margin-right: 0;
 }
 .service {
   cursor: pointer;

@@ -6,6 +6,7 @@ import Recover from './components/Form/Recover'
 import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import Services from './components/Services/Services';  
+import Logs from './components/Logs/Logs'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contacts" element={ <Contacts />}/>
         <Route path="/about" element={ <About />}/>
         <Route path="/services" element={ <Services />}/>
+        <Route path="/logs" element={ <Logs />}/>
       </Routes>
     </BrowserRouter>
     </div>

@@ -16,7 +16,9 @@ export default function Services() {
     <div>
       <ContactsBg />
       <div className="services-page-container">
-        <Menu right={true} />
+        <div className="services-menu-container">
+          <Menu right={true} />
+        </div>
         <div className="services-content-container">
           <div className="services-container">
             <h2 className="page-title services-title">Что будем продвигать?</h2>

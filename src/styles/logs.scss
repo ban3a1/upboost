@@ -1,0 +1,40 @@
+.logs-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.logs-content-container {
+  position: absolute;
+
+  bottom: -5px;
+  left: 100px;
+  border-radius: 15px 15px 0 0;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  height: 70%;
+  padding: 30px;
+  width: 80%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-right: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+th {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.25);
+}
+td {
+  color: rgba(255, 255, 255, 0.75);
+}
+td:last-child,
+th:last-child {
+  border-right: none;
+}

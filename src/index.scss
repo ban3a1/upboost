@@ -446,9 +446,7 @@ input[type="number"] {
   .logo {
     width: 30vw;
   }
-  .menu {
-    padding-right: 20px;
-  }
+
   .advantage-img {
     border-radius: 10px;
     width: 15px;
@@ -540,3 +538,4 @@ input[type="number"] {
 @import url("./styles/components/info.scss");
 @import url("./styles/components/clickInput.scss");
 @import url("./styles/checkout.scss");
+@import url("./styles/logs.scss");
