@@ -1,11 +1,12 @@
 .services-page-container {
   margin-left: 200px;
-  height: 100vh;
+  height: 100%;
+  position: relative;
 }
 
 .services-content-container {
   display: flex;
-  height: 100vh;
+  height: 100%;
 }
 .services-container {
   max-width: 200px;
