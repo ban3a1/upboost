@@ -52,3 +52,25 @@
   width: 500px;
   height: 500px;
 }
+
+.bg2-absolute {
+  transform: rotateZ(180deg);
+  top: -164px;
+  right: -20px;
+  width: 500px;
+  height: 500px;
+}
+.bg1-absolute {
+  bottom: -165px;
+  left: -20px;
+  width: 500px;
+  height: 500px;
+}
+
+.bg1-absolute,
+.bg2-absolute {
+  position: absolute;
+}
+.faq-bg-container {
+  height: 100vh;
+}

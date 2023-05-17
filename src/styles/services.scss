@@ -26,6 +26,10 @@
   color: rgba($color: #fff, $alpha: 0.5);
   margin-top: 20px;
   align-items: center;
+  transition: 0.3s all;
+  &:hover {
+    color: white;
+  }
 }
 
 .service-img {
@@ -87,3 +91,9 @@
 .choice-img-menu-text {
   font-size: 12px;
 }
+.service-scroll-container {
+  overflow: hidden;
+  position: relative;
+}
+
+@import url("./serviceHover.scss");

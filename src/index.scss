@@ -59,7 +59,8 @@ code {
 }
 
 .container {
-  margin: 80px;
+  margin: 150px;
+  margin-top: 100px;
 }
 
 button {
@@ -238,9 +239,6 @@ input[type="number"] {
   .logo {
     width: 15vw;
   }
-  .service-scroll-container {
-    position: relative;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -259,13 +257,14 @@ input[type="number"] {
   }
 
   .nav-link {
-    font-size: 15px;
+    font-size: 18px;
+    padding: 10px;
   }
   .advantage-title {
     font-size: 14px;
   }
   .container {
-    margin: 50px;
+    margin: 100px;
   }
   .main-text p {
     font-size: 12px;
@@ -275,8 +274,8 @@ input[type="number"] {
   }
 
   .method-container {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
   }
   .payment-container {
     flex-direction: column;
@@ -300,15 +299,16 @@ input[type="number"] {
   .about-container {
     margin: 50px;
   }
+  .front-content img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1029px) {
   .options-container {
     grid-template-columns: 1fr;
   }
-  .services-content-container {
-    height: fit-content;
-  }
+
   .details-container {
     margin: 30px 50px 0;
   }
@@ -422,6 +422,9 @@ input[type="number"] {
   .checkout-input {
     width: 80%;
   }
+  .container {
+    margin: 50px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -508,7 +511,7 @@ input[type="number"] {
     height: 30px;
   }
   .details-container {
-    margin: 0 20px 0;
+    margin: 0 20px 20px;
     width: 80%;
     padding: 20px;
   }

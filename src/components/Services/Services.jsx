@@ -10,11 +10,13 @@ import inst from "../../img/socials/inst.svg";
 import tiktok from "../../img/socials/tiktok.svg";
 import twitter from "../../img/socials/twitter.svg";
 import twitch from "../../img/socials/twitch.svg";
-
+import bg1 from "../../img/bg/bg2.png";
+import bg2 from "../../img/bg/bg2.png";
 export default function Services() {
   return (
     <div className="service-scroll-container">
-      <ContactsBg />
+      <img className="bg1-absolute" src={bg1}></img>
+      <img className="bg2-absolute" src={bg2}></img>
 
       <div className="services-page-container">
         <div className="services-menu-container">

@@ -1,0 +1,9 @@
+.youtube {
+  border: 2px solid rgba(#ff0000, 0);
+  transition: 0.3s border;
+  border-radius: 10px;
+
+  &:hover {
+    border: 2px solid #ff0000;
+  }
+}
